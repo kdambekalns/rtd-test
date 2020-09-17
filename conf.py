@@ -185,6 +185,10 @@ html_static_path = ['_static']
 # If true, links to the reST sources are added to the pages.
 #html_show_sourcelink = True
 
+html_context = {
+    'source_url_prefix': "https://github.com/neos/flow-development-collection/blob/",
+}
+
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
 #html_show_sphinx = True
 
